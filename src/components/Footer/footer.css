@@ -1,0 +1,36 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background: var(--card-bg-04);
+}
+
+p {
+    color: black;
+}
+
+.footer_text {
+    line-height: 30px;
+  
+}
+
+.footer_quick-links ul li {
+    background: transparent !important;
+}
+
+.footer_quick-links ul li a {
+    color: var(--card-bg-04);
+}
+
+.footer_links-title {
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+}
+
+.colum2 {
+    background: var(--card-bg-04);
+}
+
+.footer_copyright {
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
