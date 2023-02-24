@@ -15,6 +15,7 @@ const Home = () => {
 
     const [trendingProducts, setTrendingProducts] = useState([])
     const [bestSaleProducts, setBestSaleProducts] = useState([])
+    const [bestBedProducts, setBestBedProducts] = useState([])
     const [wirelessProducts, setWirelessProducts] = useState([])
     const [popularProducts, setPopularProducts] = useState([])
     
@@ -25,12 +26,15 @@ const Home = () => {
 
         const filteredBestSalesProducts = products.filter(item=>item.category === 'sofa')
 
+        const filteredBestBedSalesProducts = products.filter(item=>item.category === 'bed')
+
         const filteredWirelessProducts = products.filter(item=>item.category === 'wireless')
 
         const filteredPopularProducts = products.filter(item=>item.category === 'watch')
 
        setTrendingProducts(filteredTrendingProducts)
        setBestSaleProducts(filteredBestSalesProducts)
+       setBestBedProducts(filteredBestBedSalesProducts)
        setWirelessProducts(filteredWirelessProducts)
        setPopularProducts(filteredPopularProducts)
     },[])
@@ -75,13 +79,15 @@ const Home = () => {
                <h2 className='section_title'>Best Sales</h2>
             </Col>
             <ProductsList data={bestSaleProducts} />
+            <ProductsList data={bestBedProducts} />
         </Row>
         </Container>
     </section>
+  
     <section className='timer_counter'>
      <Container>
       <Row>
-        <Col lg='6' md='6'>
+        <Col lg='6' md='12' className='count_down-col'>
           <div className='clock_top-content'>
            <h4>Limited Stock Available</h4>
            <h3>Quality Armchair</h3>
@@ -89,7 +95,7 @@ const Home = () => {
           <Clock />
           <motion.button whileTap={{scale: 1.2}} className='buy_btn store_btn'><Link to='/shop'>Visit Store</Link></motion.button>
         </Col>
-        <Col lg='6' md='6' className='text-end'>
+        <Col lg='6' md='12' className='text-end counter_img'>
         <img src={counterImg} alt='' />
         </Col>
       </Row>

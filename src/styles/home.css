@@ -30,6 +30,10 @@
     margin-top: 40px;
 }
 
+.section_title {
+    font-size: 1.4rem;
+}
+
 .buy_btn a:hover {
     color: #fff;
 }
@@ -56,4 +60,55 @@
 
 .store_btn a:hover {
     color: white;
+}
+
+@media only screen and (max-width: 992px) {
+    .nav_content h2 {
+        font-size: 2rem;
+    }
+
+    .section_title {
+        font-size: 1.7rem;
+    }
+
+    .counter_img {
+        display: none;
+    }
+
+    .clock_top-content {
+        text-align: center;
+    }
+    
+    .clock_top-content h4 {
+        font-size: 0.9rem !important;
+    }
+
+    .clock_top-content h3 {
+        font-size: 1rem !important;
+    }
+
+    .count_down-col {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nav_content h2 {
+        font-size: 1.6rem;
+    }
+
+    .nav_content p {
+        font-size: 0.9rem;
+    }
+
+    .buy_btn a{
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .nav_content {
+        padding-top: 0;
+        margin-bottom: 40px;
+    }
 }

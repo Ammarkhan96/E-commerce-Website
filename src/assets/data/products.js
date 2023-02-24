@@ -8,10 +8,15 @@ import productImg05 from "../images/single-sofa-02.jpg";
 import productImg06 from "../images/single-sofa-03.jpg";
 import productImg007 from "../images/single-sofa-04.png";
 
-import productImg07 from "../images/arm-chair-01.jpg";
-import productImg08 from "../images/arm-chair-02.jpg";
-import productImg09 from "../images/arm-chair-03.jpg";
-import productImg10 from "../images/arm-chair-08.jpg";
+import productImg15 from "../images/bedroomset.jpg"
+import productImg16 from "../images/bedroomset2.jpg"
+import productImg17 from "../images/bedroomset3.jpg"
+import productImg18 from "../images/bedroomset4.png"
+
+import productImg07 from "../images/arm-chair-10.jpg";
+import productImg08 from "../images/arm-chair-12.jpg";
+import productImg09 from "../images/arm-chair-13.jpg";
+import productImg10 from "../images/arm-chair-09.jpg";
 
 import productImg19 from "../images/watch-01.jpg";
 import productImg20 from "../images/watch-02.jpg";
@@ -110,6 +115,99 @@ const products = [
       ],
       avgRating: 4.7,
     },
+
+    {
+      id: "15",
+      productName: "Bhola Bed Set",
+      imgUrl: productImg15,
+      category: "bed",
+      price: 195000,
+      shortDesc:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      reviews: [
+        {
+          rating: 4.8,
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        },
+        {
+          rating: 4.8,
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        },
+      ],
+      avgRating: 4.7,
+    },
+
+    {
+      id: "16",
+      productName: "Dream Bed Set",
+      imgUrl: productImg16,
+      category: "bed",
+      price: 233000,
+      shortDesc:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      reviews: [
+        {
+          rating: 4.8,
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        },
+        {
+          rating: 4.8,
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        },
+      ],
+      avgRating: 4.7,
+    },
+
+    {
+      id: "17",
+      productName: "Romeo Bed Set",
+      imgUrl: productImg17,
+      category: "bed",
+      price: 275000,
+      shortDesc:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      reviews: [
+        {
+          rating: 4.8,
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        },
+        {
+          rating: 4.8,
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        },
+      ],
+      avgRating: 4.7,
+    },
+
+    {
+      id: "18",
+      productName: "Brownie Bed Set",
+      imgUrl: productImg18,
+      category: "bed",
+      price: 300000,
+      shortDesc:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      reviews: [
+        {
+          rating: 4.8,
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        },
+        {
+          rating: 4.8,
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        },
+      ],
+      avgRating: 4.7,
+    },
+
     {
       id: "04",
       productName: "Fllufy Sheep Sofa",
