@@ -1,9 +1,11 @@
 import React from 'react'
 import "./footer.css"
 import { Container, Row, Col, ListGroup, ListGroupItem } from 'react-bootstrap';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
+
+  const Links = ['Bed Set' , 'Modern Sofa', 'Arm Chair', 'Personal Accessories']
   const year = new Date().getFullYear()
   return <footer className='footer'>
     <Container>
@@ -11,7 +13,7 @@ const Footer = () => {
         <Col lg='4' className='mb-4' md='6'>
         <div className='logo'>
            <div>
-            <h1>AK-MART</h1>
+            <h1>FLY-BUY</h1>
            </div>
          </div>
          <p className='footer_text mt-4'>
@@ -23,6 +25,7 @@ const Footer = () => {
         <Col lg='3' md='3' className='mb-4'>
           <div className='footer_quick-links'>
             <h4 className='footer_links-title'>Top Categories</h4>
+           
             <ListGroup>
               <ListGroupItem className='colum2 ps-0 border-0'>
                 <Link to='#'>Modern Sofa</Link>

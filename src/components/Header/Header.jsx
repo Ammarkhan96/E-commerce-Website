@@ -5,6 +5,7 @@ import userIcon from '../../assets/images/user-icon.png'
 import { Container, Row } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import { useSelector } from 'react-redux'
  
 const nav_links = [
     {
@@ -24,6 +25,7 @@ const nav_links = [
 const Header = () => {
 
   const headerRef = useRef(null)
+  const totalQuantity = useSelector(state => state.cart.totalQuantity)
 
   const menuRef = useRef(null)
 
@@ -69,7 +71,7 @@ const Header = () => {
          </div>
          <div className='nav_icons'>
             <span className='fav_icon'><i class="ri-heart-line"></i><span className='badge'>2</span></span>
-           <span className='cart_icon'><i class="ri-shopping-bag-line"></i><span className='badge'>2</span></span>
+           <span className='cart_icon'><i class="ri-shopping-bag-line"></i><span className='badge'>{totalQuantity}</span></span>
            <span><motion.img whileTap={{scale: 1.5}} src={userIcon} alt='' /></span>
            <div className='mobile_menu'>
            <span onClick={menuToggle}><i class="ri-menu-line"></i></span>
