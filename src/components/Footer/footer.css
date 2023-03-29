@@ -10,8 +10,10 @@ p {
 
 .footer_text {
     line-height: 30px;
+    color: black;
   
 }
+
 
 .footer_quick-links ul li {
     background: transparent !important;
