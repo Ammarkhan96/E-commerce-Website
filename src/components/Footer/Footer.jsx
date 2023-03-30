@@ -16,7 +16,7 @@ const Footer = () => {
             <h1>FLY-BUY</h1>
            </div>
          </div>
-         <p className='footer_text mt-4'>
+         <p className='footer_text mt-4 '>
             Its all about your fashion which you want to do at your homes. 
             And which enchance your home features and this is the reason your
             feel proud through us.
@@ -27,11 +27,11 @@ const Footer = () => {
             <h4 className='footer_links-title'>Top Categories</h4>
            
             <ListGroup>
-              <ListGroupItem className='colum2 ps-0 border-0'>
+              <ListGroupItem className='colum2  ps-0 border-0'>
                 <Link to='#'>Modern Sofa</Link>
               </ListGroupItem>
 
-              <ListGroupItem className='colum2 ps-0 border-0'>
+              <ListGroupItem className='colum2 danger ps-0 border-0'>
                 <Link to='#'>Arm Chair</Link>
               </ListGroupItem>
 
