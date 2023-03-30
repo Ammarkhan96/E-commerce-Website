@@ -98,7 +98,7 @@ const Header = () => {
            <span className='cart_icon' onClick={navigateToCart}><i class="ri-shopping-bag-line"></i>
            <span className='badge'>{totalQuantity}</span></span>
            <div className='profile'>
-            <motion.img whileTap={{scale: 1.5}} 
+            <motion.img whileTap={{scale: 1.3}} 
             src={currentUser? currentUser.photoURL : userIcon} alt='' onClick={toggleProfileActions}/>
 
            <div className='profile_actions' ref={profileActionRef} onClick={toggleProfileActions}>
